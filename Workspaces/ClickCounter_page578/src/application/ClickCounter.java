@@ -23,13 +23,13 @@ public class ClickCounter extends Application {
 		btn.setOnAction(e -> buttonClick());
 		// Create the Label
 		lbl = new Label();
-		lbl.setText("CLICK THE BUTTON!");
+		lbl.setText("Click the button!");
 		// Add the label and the button to a layout pane
 		BorderPane pane = new BorderPane();
 		pane.setTop(lbl);
 		pane.setCenter(btn);
 		// Add the layout pane to a scene
-		Scene scene = new Scene(pane, 250, 150);
+		Scene scene = new Scene(pane, 450, 350);
 		// Add the scene to the stage, set the title
 		// and show the stage
 		primaryStage.setScene(scene);
@@ -42,7 +42,7 @@ public class ClickCounter extends Application {
 		if (iClickCount == 1) {
 			lbl.setText("That's a click.");
 		} else {
-			lbl.setText("You made click click " + iClickCount + " times.");
+			lbl.setText("You have clicked " + iClickCount + " times.");
 		}
 	}
 }
