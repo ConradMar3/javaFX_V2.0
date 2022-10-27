@@ -11,8 +11,7 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/AddSubtract2"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JavaFX"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/setup"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/AddSubtract1">
 		<attributes>
 			<attribute name="module" value="true"/>
