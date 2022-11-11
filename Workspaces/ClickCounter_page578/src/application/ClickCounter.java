@@ -19,7 +19,7 @@ public class ClickCounter extends Application {
 	public void start(Stage primaryStage) {
 		// Create the button
 		btn = new Button();
-		btn.setText("'Av it son!");
+		btn.setText("Click Me!");
 		btn.setOnAction(e -> buttonClick());
 		// Create the Label
 		lbl = new Label();
@@ -33,16 +33,16 @@ public class ClickCounter extends Application {
 		// Add the scene to the stage, set the title
 		// and show the stage
 		primaryStage.setScene(scene);
-		primaryStage.setTitle("Click 'o Counter");
+		primaryStage.setTitle("Click Counter");
 		primaryStage.show();
 	}
 
 	public void buttonClick() {
 		iClickCount++;
 		if (iClickCount == 1) {
-			lbl.setText("That's a click.");
+			lbl.setText("That is 1 click.");
 		} else {
-			lbl.setText("You have clicked " + iClickCount + " times.");
+			lbl.setText("That is " + iClickCount + " clicks.");
 		}
 	}
 }
