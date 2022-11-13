@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="HelloFX_page567" pattern="ext:src.zip//*||file[javaFX_V2.0]:Workspaces/HelloFX_page567/src/application/ClickMe1.java" />
+</component>

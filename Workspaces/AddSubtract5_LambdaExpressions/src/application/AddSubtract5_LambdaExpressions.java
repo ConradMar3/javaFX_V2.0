@@ -32,7 +32,7 @@ public class AddSubtract5_LambdaExpressions extends Application {
 		lbl.setText(Integer.toString(iCounter));
 // Add the buttons and label to an HBox pane
 		HBox pane = new HBox(10);
-		pane.getChildren().addAll(lbl, btnAdd, btnSubtract);
+		pane.getChildren().addAll( btnAdd,lbl, btnSubtract);
 // Add the layout pane to a scene
 		Scene scene = new Scene(pane, 500, 375);
 // Add the scene to the stage, set the title

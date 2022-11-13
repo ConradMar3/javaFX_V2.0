@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ClickMe" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/IntelliJ-javaFx/javaFx-IntelliJ.SceneBuilder" vcs="Git" />
   </component>
 </project>
