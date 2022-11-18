@@ -19,24 +19,29 @@ public class AddSubtract5_LambdaExpressions extends Application {
 
 	@Override
 	public void start(Stage primaryStage) {
-// Create the Add button
+
+		// Create the Add button
 		btnAdd = new Button();
 		btnAdd.setText("Add");
 		btnAdd.setOnAction(e -> btnAdd_Click());
-// Create the Subtract button
+
+		// Create the Subtract button
 		btnSubtract = new Button();
 		btnSubtract.setText("Subtract");
 		btnSubtract.setOnAction(e -> btnSubtract_Click());
-// Create the Label
+
+		// Create the Label
 		lbl = new Label();
 		lbl.setText(Integer.toString(iCounter));
-// Add the buttons and label to an HBox pane
+
+		// Add the buttons and label to an HBox pane
 		HBox pane = new HBox(10);
-		pane.getChildren().addAll( btnAdd,lbl, btnSubtract);
-// Add the layout pane to a scene
+		pane.getChildren().addAll(btnAdd, lbl, btnSubtract);
+
+		// Add the layout pane to a scene
 		Scene scene = new Scene(pane, 500, 375);
-// Add the scene to the stage, set the title
-// and show the stage
+
+		// Add the scene to the stage, set the title and show the stage
 		primaryStage.setScene(scene);
 		primaryStage.setTitle("Add/Sub");
 		primaryStage.show();
